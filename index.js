@@ -1,13 +1,12 @@
-let a = prompt('Введите количество $?');
+let userAnswerDollar = prompt('Введите количество $?');
 const euro = 70;
 const dollar = 60;
+let dollarResult = userAnswerDollar * dollar;
+alert(dollarResult + " рублей" ) ;
 
-let e = a * dollar;
-alert(e);
-let b = prompt('Введите количество euro?');
-
-let j = b * euro;
-alert(j);
+let userAnswerEuro = prompt('Введите количество euro?');
+let euroResult = userAnswerEuro * euro;
+alert(euroResult + " рублей" ) 
 
 
 
