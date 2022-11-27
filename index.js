@@ -1,12 +1,8 @@
-let userAnswerDollar = prompt('Введите количество $?');
-const euro = 70;
-const dollar = 60;
-let dollarResult = userAnswerDollar * dollar;
-alert(dollarResult + " рублей" ) ;
-
-let userAnswerEuro = prompt('Введите количество euro?');
-let euroResult = userAnswerEuro * euro;
-alert(euroResult + " рублей" ) 
+let a = prompt('Введите длину основания трапеции a');
+let b = prompt('Введите длину основания трапеции b');
+let h = prompt('Введите высоту основания трапеции h');
+let d = ((a+b)/2*h);
+alert("Площадь трапеции " +d) ;
 
 
 
