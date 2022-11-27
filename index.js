@@ -1,8 +1,8 @@
-let a = prompt('Введите длину основания трапеции a');
-let b = prompt('Введите длину основания трапеции b');
-let h = prompt('Введите высоту основания трапеции h');
-let d = ((a+b)/2*h);
-alert("Площадь трапеции " +d) ;
+let lengthA = prompt('Введите длину основания трапеции a');
+let lengthB = prompt('Введите длину основания трапеции b');
+let height= prompt('Введите высоту основания трапеции h');
+let resultSquare = ((lengthA+lengthB)/2*height);
+alert("Площадь трапеции " +resultSquare) ;
 
 
 
